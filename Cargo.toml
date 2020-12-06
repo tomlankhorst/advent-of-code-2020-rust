@@ -1,0 +1,19 @@
+[package]
+name = "advent-of-code-2020"
+version = "0.1.0"
+authors = ["Tom Lankhorst <info@tomlankhorst.nl>"]
+edition = "2018"
+
+[[bin]]
+name = "day1"
+path = "src/day1-report-repair.rs"
+
+[[bin]]
+name = "day2"
+path = "src/day2-password-philosophy.rs"
+
+[[bin]]
+name = "day8"
+path = "src/day8-handheld-halting.rs"
+
+[dependencies]
