@@ -16,4 +16,9 @@ path = "src/day2-password-philosophy.rs"
 name = "day8"
 path = "src/day8-handheld-halting.rs"
 
+[[bin]]
+name = "day9"
+path = "src/day9-encoding-error.rs"
+
+
 [dependencies]
