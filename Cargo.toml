@@ -20,5 +20,8 @@ path = "src/day8-handheld-halting.rs"
 name = "day9"
 path = "src/day9-encoding-error.rs"
 
+[[bin]]
+name = "day10"
+path = "src/day10-adapter-array.rs"
 
 [dependencies]
