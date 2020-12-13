@@ -5,12 +5,12 @@ pub fn input_reader() -> Option<Lines<BufReader<File>>> {
     let args: Vec<String> = env::args().collect();
 
     if args.len() != 2 {
-        println!("Provide day1 file");
+        println!("Provide day01 file");
         return None
     }
 
     let file = File::open(&args[1])
-        .expect("Couldn't read day1");
+        .expect("Couldn't read day01");
 
     Some(io::BufReader::new(file).lines())
 }
