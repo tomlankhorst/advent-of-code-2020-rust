@@ -24,4 +24,8 @@ path = "src/day9-encoding-error.rs"
 name = "day10"
 path = "src/day10-adapter-array.rs"
 
+[[bin]]
+name = "day12"
+path = "src/day12-rain-risk.rs"
+
 [dependencies]
