@@ -36,4 +36,8 @@ path = "src/day13-shuttle-search.rs"
 name = "day14"
 path = "src/day14-docking-data.rs"
 
+[[bin]]
+name = "day15"
+path = "src/day15-rambunctious-recitation.rs"
+
 [dependencies]
