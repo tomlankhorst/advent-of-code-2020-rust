@@ -40,4 +40,9 @@ path = "src/day14-docking-data.rs"
 name = "day15"
 path = "src/day15-rambunctious-recitation.rs"
 
+[[bin]]
+name = "day17"
+path = "src/day17-conway-cubes.rs"
+
 [dependencies]
+ndarray = "0.14.0"
