@@ -49,6 +49,10 @@ name = "day22"
 path = "src/day22-crab-combat.rs"
 
 [[bin]]
+name = "day24"
+path = "src/day24-lobby-layout.rs"
+
+[[bin]]
 name = "day25"
 path = "src/day25-combo-breaker.rs"
 
